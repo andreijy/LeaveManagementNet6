@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LeaveManagement.Web.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221207060713_AddedLeaveTables")]
+    [Migration("20221208071114_AddedLeaveTables")]
     partial class AddedLeaveTables
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
